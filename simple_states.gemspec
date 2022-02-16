@@ -17,9 +17,9 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.rubyforge_project = '[none]'
 
-  s.add_dependency 'activesupport'
+  s.add_dependency 'activesupport', '~> 6.1.4.5'
 
-  s.add_development_dependency 'rake', '~> 0.9.2'
+  s.add_development_dependency 'rake', '~> 13.0.6'
   s.add_development_dependency 'test-unit'
   s.add_development_dependency 'test_declarative'
   s.add_development_dependency 'mocha'
