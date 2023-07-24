@@ -1,7 +1,7 @@
 require 'bundler/setup'
 require 'test/unit'
 require 'test_declarative'
-require 'mocha/setup'
+require 'mocha/test_unit'
 
 begin
   require 'ruby-debug'

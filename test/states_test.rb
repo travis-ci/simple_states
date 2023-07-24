@@ -1,5 +1,6 @@
 require 'test_helper'
-require 'active_support/core_ext/time/zones'
+require "active_support"
+require "active_support/testing/time_helpers"
 
 class StatesTest < Test::Unit::TestCase
   include ClassCreateHelper
