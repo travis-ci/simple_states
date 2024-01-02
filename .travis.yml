@@ -10,6 +10,7 @@ env:
   global:
     - JRUBY_OPTS="--server --1.9"
 before_install:
+  - gem install rubygems-update -v 3.4.22
   - which bundle || gem install bundler
 script:
   - bundle exec rspec --require spec_helper
